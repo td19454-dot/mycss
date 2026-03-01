@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding : 10px;
+}
+nav a {
+    color: rgb(6, 70, 105);
+    text-decoration: none;
+    margin-left: 50px;
+    padding : 5px;
+}
+header {
+    background-color: rgb(172, 238, 204);
+    text-align: center;
+    height: 30px;
+}
+#div{
+    height : 200px;
+    width : 200px;
+    background-color: rgb(142, 75, 135);
+    border-radius : 50%;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(211, 93, 93);
+    display: inline-block;
+    margin : 10px;
+}
+#container{
+
+    border : 1px solid black;
+    margin-top: 20px;
+}
+#fourth{
+            position:fixed;
+            right : 100px;
+}
+
+
+footer{
+    position : fixed;
+    bottom : 0px;
+    background-color: rgb(157, 200, 246);
+}
