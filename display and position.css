@@ -1,0 +1,35 @@
+ *{
+        margin: 0;
+        padding: 0;
+    }
+    .box {
+        height: 100px;
+        width: 100px;
+         background-color: lightblue;
+         margin : 10px;
+    }
+
+    #box1{
+        background-color: aqua;
+        position : static;
+    }
+    #box2 {
+        background-color: lightcoral;
+        position : relative;
+        top : 20px;
+        left : 20px;
+    }
+    #box3 {
+        background-color: lightgreen;
+        position : absolute;
+        top : 50px;
+        left : 50px;
+
+
+    }
+    #box4 {
+        background-color: rgb(148, 148, 37);
+        position : fixed;
+        right : 20px;
+
+    }
