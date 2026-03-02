@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(225, 186, 200);
+  border: 3px solid rgb(20, 20, 70);
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(20, 20, 70);
+  margin : 10px;
+
+}
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(4, 68, 83);
+  float: left;
+}
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(83, 3, 64);
+  float: right;
+}
