@@ -1,0 +1,29 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+
+#container {
+    height : 300px;
+    width : 600px;
+    padding : 10px;
+    margin : 10px;
+    border : 2px solid black;
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+
+#item1 {
+    background-color: lightcoral;
+}
+#item2 {
+    background-color: rgb(115, 229, 229);
+}
+#item3 {
+    background-color: rgb(235, 91, 44);
+}
+#item4 {
+    background-color: rgb(194, 154, 31);
+}
