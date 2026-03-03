@@ -1,0 +1,39 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+#container {
+    height : 300px;
+    width : 600px;
+    padding : 10px;
+    margin : 10px;
+    border : 2px solid black;
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+
+}
+.item {
+    height : 200px;
+    width : 200px;
+    padding : 10px;
+    margin : 10px;
+    border : 2px solid black;
+    background-color: lightgreen;
+}
+
+#item1 {
+    background-color: lightcoral;
+}
+#item2 {
+    background-color: rgb(115, 229, 229);
+}
+#item3 {
+    background-color: rgb(235, 91, 44);
+    flex-shrink: 4;
+} 
+
+#item4 {
+    background-color: rgb(194, 154, 31);
+}
