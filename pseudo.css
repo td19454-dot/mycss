@@ -1,0 +1,25 @@
+.p{
+    height : 50px;
+    width : 200px;
+    background-color: white;
+    color: rgb(55, 1, 51);
+    border: 2px solid rgb(19, 16, 31);
+    border-radius: 40px;
+    background-color: rgb(228, 159, 211);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(3);
+    transition-delay: 0s;
+}
+.p:hover{
+    height : 60px;
+    width : 220px;
+    background-color: rgb(177, 168, 215);
+    color: rgb(88, 3, 3);
+    border: 2px solid rgb(81, 5, 62);
+}
+.p:active{
+    background-color: rgb(148, 176, 127);
+    color: rgb(2, 53, 70);
+    border: 2px solid rgb(81, 5, 13);
+}
