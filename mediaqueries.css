@@ -1,0 +1,14 @@
+.box{
+    padding: 5px;
+    height : 200px;
+    width : 200px;
+    background-color: rgb(235, 91, 44);
+}
+@media  screen and (min-width: 500px) {
+    .box{
+        background-color: rgb(115, 229, 229);
+        height : 300px;
+        width : 300px;
+    }
+    
+}

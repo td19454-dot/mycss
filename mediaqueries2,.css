@@ -1,0 +1,12 @@
+.box{
+    height : 200px;
+    width : 200px;
+    background-color: rgb(235, 91, 44);
+}
+@media  screen and (min-width: 300px) and (max-width: 400px) {
+    .box{
+        background-color: rgb(115, 229, 229);
+        border-radius: 50%;
+    }
+    
+}
