@@ -1,0 +1,101 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214, 248, 244);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box1:hover{
+    transform: rotate(45deg);
+    background-color: bisque;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 163, 226);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box2:hover{
+    transform: rotateX(45deg);
+    background-color: rgb(217, 240, 180);
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(102, 201, 189);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box3:hover{
+    transform: rotateY(45deg);
+    background-color: rgb(219, 94, 94);
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(151, 227, 246);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box4:hover{
+    transform: translateX(30px);
+    background-color: rgb(247, 187, 233);
+}
+#box5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 188, 226);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box5:hover{
+    transform : translate(50px, 50px);
+    background-color: rgb(215, 154, 186);
+}
+#box6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 249, 8);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box6:hover{
+    transform : translateY(40px);
+    background-color: rgb(216, 152, 201);
+}
+#box7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(248, 246, 149);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box7:hover{
+    transform: scale(1.5); 
+    background-color: rgb(223, 72, 187);
+}
+
+#box8{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(210, 126, 37);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 2s ease-in-out;
+}
+#box8:hover{
+    transform: skew(90deg);
+    background-color: rgb(215, 154, 186);
+}
